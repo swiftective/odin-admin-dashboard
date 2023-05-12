@@ -109,3 +109,26 @@ h5 {
   top: 1rem;
   left: 1rem;
 }
+
+#sidebar {
+  color: white;
+}
+
+#sidebar > :first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#sidebar > * {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#sidebar > div > div {
+  margin: .5rem;
+
+}
